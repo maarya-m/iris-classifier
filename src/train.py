@@ -1,5 +1,5 @@
 import os
-os.makedirs ("outputs, exist_ok=True")
+os.makedirs ("outputs", exist_ok=True)
 from sklearn.datasets import load_iris
 iris = load_iris()
 X = iris.data      # shape (150, 4)
